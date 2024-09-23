@@ -32,6 +32,7 @@ export default function FormCadCargos(props) {
                     alert("Atualizado com sucesso!");
                     props.setModoEdicao(false);
                     props.setCargoSelecionado( { codigo: 0, descricao: "" });
+                    props.setExibirTabela(true);
 
                     setValidado(false);
                 }).catch((erro) => {

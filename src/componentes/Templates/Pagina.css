@@ -91,8 +91,20 @@ body, html {
     border: none;  /* Remove bordas */
 }
 
+.footer {
+    background-color: rgba(11, 171, 11, 0);
+    color: #f6f9f4;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Mude de absolute para relative */
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px; /* Adicione uma margem se necessário */
+}
+
 .alert-light {
     background-color: transparent !important;  /* Faz o fundo do Alert transparente */
     border: none !important;  /* Remove borda do Alert */
     color: #0cf11f !important;  /* Garante que o texto fique branco */
 }
+

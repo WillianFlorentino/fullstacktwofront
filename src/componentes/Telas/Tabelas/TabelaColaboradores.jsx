@@ -11,8 +11,9 @@ export default function TabelaColaboradores(props) {
         const token = contextoUsuario.usuarioLogado.token;
         if (window.confirm("Deseja excluir o colaborador?")) {
             excluir(colaborador, token).then((resposta) => {
-                props.setAtualizarTela(true);
+                
                 alert(resposta.mensagem);
+                
             }).catch((erro) => {
                 alert("Erro ao enviar a requisicao: " + erro.message);
             });

@@ -15,7 +15,7 @@ export default function Pagina(props) {
                     {props.children}
                 </Container>
             </div>
-            <Rodape informacoes="Sistema EcoMais By Willian Florentino" />
+            <Rodape  informacoes="Sistema EcoMais By Willian Florentino" />
         </>
     );
 }
